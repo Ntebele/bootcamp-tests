@@ -5,4 +5,6 @@ function transportFee(dayTime){
         default: return "free";
         
                   }
+
+                  
     }
