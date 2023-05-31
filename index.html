@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mocha Tests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script src="https://unpkg.com/mocha/mocha.js"></script>
+
+    <script class="mocha-init">
+      mocha.setup('bdd');
+      mocha.checkLeaks();
+      assert = chai.assert;
+     
+    
+
+    </script>
+    <script src="test.greet.js"></script>
+    <script src="greet.js"></script>
+    
+    <script src="isFromBellville.js"></script>
+    <script src="test.isFromBellville.js"></script>
+
+    <script src="regCheck.js"></script>
+    <script src="test.regCheck.js"></script>
+
+    <script src="countRegNumber.js"></script>
+    <script src="test.countRegNumber.js"></script>
+
+    <script src="transportFee.js"></script>
+    <script src="test.transportFee.js"></script>
+
+
+    <script src="isWeekday.js"></script>
+    <script src="test.isWeekday.js"></script>
+
+    <script src="yearsAgo.js"></script>
+    <script src="test.yearsAgo.js"></script>
+
+    <script src="countAllPaarl.js"></script>
+    <script src="test.countAllPaarl.js"></script>
+
+    <script src="countAllFromTown.js"></script>
+    <script src="test.countAllFromTown.js"></script>
+
+    <script src="transportFee.js"></script>
+    <script src="test.transportFee.js"></script>
+
+    <script src="totalPhoneBill.js"></script>
+    <script src="test.totalPhoneBill.js"></script>
+
+    <script src="fromWhere.js"></script>
+    <script src="test.fromWhere.js"></script>
+
+    <script src="findItemsOver20.js"></script>
+    <script src="test.findItemsOver20.js"></script>
+
+    <script src="findItemsOver.js"></script>
+    <script src="test.findItemsOver.js"></script>
+
+    <script src="mostProfitableDepartment.js"></script>
+    <script src="test.mostProfitableDepartment.js"></script>
+
+  
+
+
+    <script class="mocha-exec">
+      mocha.run();
+    </script>
+  </body>
+</html>
